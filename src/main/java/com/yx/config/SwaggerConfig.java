@@ -21,7 +21,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .pathMapping("/")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.yx.base.spring.boot"))
+                .apis(RequestHandlerSelectors.basePackage("com.yx"))
                 .paths(PathSelectors.any())
                 .build().apiInfo(new ApiInfoBuilder()
                         .title("Yx测试TitleSpringBoot整合Swagger")
