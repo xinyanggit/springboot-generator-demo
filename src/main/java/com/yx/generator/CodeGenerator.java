@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author yangxin@webull.com
+ * @author yangxin
  * @create 2021-08-13 4:26 下午
  */
 public class CodeGenerator {
