@@ -74,11 +74,13 @@
             <optional>true</optional>
         </dependency>
 
+
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
+        <!-- generator 文件生成 ====  start -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
@@ -104,6 +106,7 @@
             <artifactId>beetl</artifactId>
             <version>2.2.5</version>
         </dependency>
+        <!-- generator 文件生成 ====  end -->
 
         <dependency>
             <groupId>io.springfox</groupId>
